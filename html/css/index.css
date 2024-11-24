@@ -1,0 +1,40 @@
+#logo{
+    width: 100px;
+    height: 100px;
+   border-radius: 20px;
+  margin-right: 200px;
+}
+#icon{
+   margin-left: 70px;
+}
+#icon2{
+    margin-left: 325px;
+}
+#hed{
+    margin-top: 50px;
+    margin-left: 200px;
+ 
+   
+}
+#sum{
+    color: orangered;
+}
+#button{
+    
+    background-color: orangered;
+    width: 150px;
+    height: 40px;
+    color: wheat;
+}
+#phone{
+    color: orangered;
+    width: 30px;
+    height: 30px;
+}
+#fount{
+      font-family: "Brush Script MT", cursive;
+
+}
+#web{
+    background-color: whitesmoke;
+}
