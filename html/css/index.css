@@ -1,18 +1,19 @@
 #logo{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 70px;
    border-radius: 20px;
-  margin-right: 200px;
+  margin-right: 175px;
 }
 #icon{
    margin-left: 70px;
+   
 }
 #icon2{
-    margin-left: 325px;
+    margin-left: 200px;
 }
 #hed{
     margin-top: 50px;
-    margin-left: 200px;
+    margin-left: 150px;
  
    
 }
@@ -22,9 +23,10 @@
 #button{
     
     background-color: orangered;
-    width: 150px;
+    width: 120px;
     height: 40px;
     color: wheat;
+    border-radius: 8px;
 }
 #phone{
     color: orangered;
@@ -32,9 +34,80 @@
     height: 30px;
 }
 #fount{
-      font-family: "Brush Script MT", cursive;
+ 
+    font-family: "Brush Script MT", cursive;
+    font-size: 40px;
 
 }
 #web{
     background-color: whitesmoke;
+}
+
+
+
+#icon2>svg{
+    margin: 2px;
+    width: 18px;
+    height: 20px;
+background-color: rgb(235, 228, 228); 
+   border-radius: 5px;
+    padding: 2px;
+}
+#icon>svg{
+    width: 18px;
+    height: 25px;
+background-color: rgb(235, 228, 228); 
+   border-radius: 5px;
+    padding: 2px;
+  
+}
+.badge text-bg-warning{
+    margin-bottom: 20px;
+}
+
+
+#web{
+    display: grid;
+    grid-template-columns: auto auto ;
+    margin-top: 50px;
+    align-items: center;
+}
+#logo2{
+    width: 400px;
+    height: 400px;
+    
+}
+.hed{
+   
+    text-align: center;
+}
+.navbar-brand{
+    margin-right: 5px;
+}
+#web{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.logo3{
+    width: 250px;
+    height: 250px;
+}
+#grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    margin-top: 30px;
+}
+.item1{
+    text-align: center;
+    padding: 50px;
+}
+.logo3{
+    border-radius: 10px;
+}
+.bootn{
+    background-color: orangered;
+    color: wheat;
+    border-radius: 5px;
 }
