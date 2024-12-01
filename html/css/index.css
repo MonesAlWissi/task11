@@ -111,3 +111,19 @@ background-color: rgb(235, 228, 228);
     color: wheat;
     border-radius: 5px;
 }
+#cardCont{
+  display: grid;
+  grid-template-areas: "t1 t3"
+  "t2 t3";  
+  width: 300px;
+}
+#t1{
+    grid-area: t1;
+}
+#t2{
+    grid-area: t2;
+}
+#t3{
+    grid-area: t3;
+    vertical-align: middle;
+}
